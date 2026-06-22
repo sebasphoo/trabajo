@@ -85,15 +85,15 @@ class Carro extends Vehiculo {
     double costo = 500000;
 
     if (numeroPuertas > 4) {
-      costo += 200000;
+      costo += 20000;
     } else {
-      costo += 100000;
+      costo += 10000;
     }
 
     int edad = DateTime.now().year - anio;
 
     if (edad > 10) {
-      costo += 150000;
+      costo += 15000;
     }
 
     return costo;
@@ -128,18 +128,18 @@ class Motocicleta extends Vehiculo {
       return 0;
     }
 
-    double costo = 300000;
+    double costo = 30000;
 
     if (cilindraje > 200) {
-      costo += 250000;
+      costo += 25000;
     } else {
-      costo += 100000;
+      costo += 10000;
     }
 
     int edad = DateTime.now().year - anio;
 
     if (edad > 5) {
-      costo += 100000;
+      costo += 10000;
     }
 
     return costo;

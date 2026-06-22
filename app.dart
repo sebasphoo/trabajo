@@ -82,7 +82,7 @@ class Carro extends Vehiculo {
       return 0;
     }
 
-    double costo = 500000;
+    double costo = 50000;
 
     if (numeroPuertas > 4) {
       costo += 20000;
@@ -95,7 +95,7 @@ class Carro extends Vehiculo {
     if (edad > 10) {
       costo += 15000;
     }
-
+ 
     return costo;
   }
 
